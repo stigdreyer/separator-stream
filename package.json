@@ -1,6 +1,6 @@
 {
   "name": "separator-stream",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A transform stream that separates the previous stream with a given regular expression",
   "main": "index.js",
   "scripts": {

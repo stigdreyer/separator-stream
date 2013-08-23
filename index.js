@@ -31,7 +31,8 @@ Separator.prototype._transform = function(chunk, encoding, done) {
 };
 
 Separator.prototype._flush = function (done) {
-  this.push(this.buffer.join());
+  if (this.buffer.length > 0)
+    this.push(this.buffer.join());
   delete this.buffer;
   done();
 }
