@@ -1,0 +1,14 @@
+{
+  "name": "separator-stream",
+  "version": "0.0.1",
+  "description": "A transform stream that separates the previous stream with a given regular expression",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "author": "João Jerónimo",
+  "license": "MIT",
+  "devDependencies": {
+    "tap": "~0.4.4"
+  }
+}
