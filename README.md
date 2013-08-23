@@ -5,6 +5,12 @@ have to pass a regular expression (mandatory parameter), then you
 pipe a regular stream to it, and it should emit `data` events for
 every part it got.
 
+## Installation
+
+    npm install --save separator-stream
+
+## Usage
+
 ```js
 var fs = require('fs');
 var Separator = require('separator-stream');
